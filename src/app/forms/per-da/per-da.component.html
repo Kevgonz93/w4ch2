@@ -1,0 +1,54 @@
+<fieldset>
+  <legend>FORMULARIO #01 - Personal Data</legend>
+
+  <section class="form1">
+    <div class="control">
+      <label
+        ><span>Nombre</span>
+        <input type="text" name="name" placeholder="Escribe tu nombre aquí" />
+      </label>
+    </div>
+    <div>
+      <label>
+        <span>Apellido</span>
+        <input
+          type="text"
+          name="lastname"
+          placeholder="Escribe aquí tu apellido"
+        />
+      </label>
+    </div>
+    <div></div>
+    <label>
+      <span>Fecha de Nacimiento</span>
+      <input type="date" name="birthday" />
+    </label>
+    <div class="control">
+      <span>Selecciona tu sexo</span>
+      <label> <input type="radio" name="gender" value="M" /> Masculino </label>
+      <label> <input type="radio" name="gender" value="F" /> Femenino </label>
+      <label> <input type="radio" name="gender" value="O" /> Otro </label>
+      <label> <input type="radio" name="gender" value="ND" /> No define</label>
+    </div>
+    <div class="control">
+      <label>
+        <span>Correo:</span>
+        <input type="email" name="email" />
+      </label>
+    </div>
+    <div class="control">
+      <label>
+        <input type="checkbox" name="checkbox" value="Agree" />
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis eius
+        officia rem nam ex tempore veniam nostrum deleniti sequi voluptate ad
+        vel, similique maxime beatae perferendis quidem nesciunt, non
+        reprehenderit.
+      </label>
+    </div>
+  </section>
+  <section class="buttom">
+    <a routerLink="/login.component" routerLinkActive="active"
+      ><button>Siguiente</button></a
+    >
+  </section>
+</fieldset>
